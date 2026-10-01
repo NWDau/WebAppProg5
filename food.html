@@ -22,9 +22,9 @@
 <body>
 <h1>Something with food</h1>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
     
-  <a class="navbar-brand" href="#">Food options</a>
+  
 
 <nav class="navbar navbar-expand-md navbar-light bg-light">
   <div class="container-fluid">
@@ -36,11 +36,12 @@
       aria-controls="navbarSupportedContent"
       aria-expanded="false"
       aria-label="Toggle navigation">
+
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav me-auto">
         <li class="nav-item">
           <a class="nav-link active" href="first.html">First</a>
         </li>
@@ -53,16 +54,16 @@
 
   </div>
 </nav>
-```
+
 
 
 <div class = "container">
-  <div class="col-ms-2">D</div>
-  <div class="col-ms-2">M</div>
-  <div class="col-ms-2">A</div>
-  <div class="col-ms-2">Y</div>
-  <div class="col-ms-2">O</div>
-  <div class="col-ms-2">M</div>
+  <div class="col-md-2">D</div>
+  <div class="col-md-2">M</div>
+  <div class="col-md-2">A</div>
+  <div class="col-md-2">Y</div>
+  <div class="col-md-2">O</div>
+  <div class="col-md-2">M</div>
 </div>
 
 <div class = "row">
@@ -74,16 +75,18 @@
   <div class="col-md-2">Moonpie</div>
 </div>
 
-<div class = "images">
-  <img src = "Apple.jpg" class = "img-fluid">
-  <img src = "Mango.jpg" class = "img-fluid">
-  <img src = "BiscutDonuts.webp" class = "img-fluid">
-</div>
-
-<div class = "imagesthumbnail">
-  <img src = "Apple.jpg" class = "img-fluid img-thumbnail">
-  <img src = "Mango.jpg" class = "img-fluid img-thumbnail">
-  <img src = "BiscutDonuts.webp" class = "img-fluid img-thumbnail">
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <img src="Apple.jpg" class="img-fluid">
+    </div>
+    <div class="col-md-4">
+      <img src="Mango.jpg" class="img-fluid">
+    </div>
+    <div class="col-md-4">
+      <img src="BiscutDonuts.webp" class="img-fluid">
+    </div>
+  </div>
 </div>
 
 <table class="table styled-table">
@@ -116,7 +119,7 @@
 
 <div class="dropdown" role="Toolbar" aria-label="Dropdown Toolbar">
   <div class="btn-group me-2" role="group">
-    <button type="button" class="btn btn-success dropdown toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
       Success letters
     </button>
     <ul class="dropdown-menu">
